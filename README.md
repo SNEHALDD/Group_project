@@ -1,5 +1,4 @@
 # GROUP_PROJECT
+Snehal Desalve, Zara Khan, Kevin MacDonald, Justin Tapia
 
-Hello, World!!!
-
-the YT folder should contain a working comment grabber.
+Youtube Comment Sentiment Analysis
