@@ -9,37 +9,51 @@ Steps to achieve:
 Final outcome:
 
 ## Contributors: 
- zaraxkhan 
+1. zaraxkhan 
 
- macdkw89
+2. macdkw89
 
- justint42
+3. justint42
 
- SNEHALDD
+4. SNEHALDD
 
 ## Communication:
 
- Slack, Google Drive, Zoom.
+1. Slack - Created slack channel to share ideas, make decisions and move work forward.
 
-## Sources
+2. Google Drive - Used google drive to keep necessary files and folders in organized manner. We also share next meeting's agenda on this.
 
-Dataset : [UCI Machine Learning Repository: Youtube Spam collection Dataset](https://archive.ics.uci.edu/ml/datasets/YouTube+Spam+Collection)
+3. Zoom - Use zoom to schedule group meeting outside the class.
+
+## Resources
+
+1. Dataset : [UCI Machine Learning Repository: Youtube Spam collection Dataset](https://archive.ics.uci.edu/ml/datasets/YouTube+Spam+Collection)
+
+2. Software : 
+    - Python 3.9.12
+    - Scikit-learn (version)
+    - Numpy 1.21.5
+    - pandas 1.4.2
+      
+3. Relational Database : PostgresSQL 11.
+
+4. Tools / Software : Tableau public, git, pgAdmin, VS Code.
 
 ## Prerequisites
 
 Before you begin, Please ensure you have met the following requirements:
 
-Python version
+You have installed updated version of Python, VS Code.   
 
-VS Code 
+You have PostgresSQL 11 installed. 
 
-PostgresSQL
-
-Tableau
-
+You have access to Tableau public. 
 
 ## Installation
 
+## Machine Learning Model
+
+## Database Integration
 
 ## Contact 
 If you want to contact us, you can reach us at
@@ -50,7 +64,7 @@ If you want to contact us, you can reach us at
 
  justint42 - [tapiajustin42@gmail.com](mailto:tapiajustin42@gmail.com)
 
- SNEHALDD - email address.
+ SNEHALDD - snehaldesavle3@gmail.com
 
  
 
