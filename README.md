@@ -23,7 +23,7 @@ Final outcome:
 
 ## Sources
 
-Dataset : https://archive.ics.uci.edu/ml/datasets/YouTube+Spam+Collection
+Dataset : [UCI Machine Learning Repository: Youtube Spam collection Dataset](https://archive.ics.uci.edu/ml/datasets/YouTube+Spam+Collection)
 
 ## Prerequisites
 
