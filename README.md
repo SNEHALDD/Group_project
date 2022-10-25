@@ -1,10 +1,46 @@
-# GROUP_PROJECT
-Snehal Desalve, Zara Khan, Kevin MacDonald, Justin Tapia
+# Youtube_Comments_Bot_Analysis
 
-# Topic 
-Youtube Comment Sentiment Analysis
+## Overview
 
-# Project Details
-The Youtube folder contains a basic outline of the steps in order to preprocess and clean the comments from the YouTube dataset. 
+## Contributors: 
+ zaraxkhan 
 
-The twitter folder is still in process. Did we want to use soley YouTube comments for this analysis?
+ macdkw89
+
+ justint42
+
+ SNEHALDD
+
+## Communication:
+
+ Slack, Google Drive, Zoom.
+
+
+## Prerequisites
+
+Before you begin, Please ensure you have met the following requirements:
+
+Python version
+
+VS Code 
+
+PostgresSQL
+
+Tableau
+
+
+## Installation
+
+
+## Contact 
+If you want to contact us, you can reach us at
+
+ zaraxkhan - email address
+
+ macdkw89 - email address
+
+ justint42 - email address
+
+ SNEHALDD - email address
+ 
+ 
