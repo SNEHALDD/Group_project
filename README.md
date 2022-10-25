@@ -55,7 +55,7 @@ You have access to Tableau public.
 
 ## Database Integration
 
-This [folder]() contains the database which we will be using for our analysis. We used the NLP text preprocessing method to clean the Youtube comments in order to make it ready to feed into the machine learning model. We did this by;
+This [folder](https://github.com/SNEHALDD/Youtube_Comments_Bot_Analysis/tree/main/Clean_Data) contains the database which we will be using for our analysis. We used the NLP text preprocessing method to clean the Youtube comments in order to make it ready to feed into the machine learning model. We did this by;
 - Importing in the file which contains the Youtube comments extracted using Youtube API
 - Removing unnecessary columns, we only kept the columns which contained the comment text and class of 1 or 0. The dataframes which had the class columns is the one that we will be using on our machine learning model as our training data so that machine learns how to categorize the data as bot(1) or human(0).
 - Removing extra characters such as emojis, urls, puncuations, numbers, trailing spaces, and special charaters
