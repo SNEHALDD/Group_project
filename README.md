@@ -64,7 +64,7 @@ This [folder](https://github.com/SNEHALDD/Youtube_Comments_Bot_Analysis/tree/mai
 
 After all this, the dataframes are preprocessed to match natural language processing for machine learning. 
 
-Due to the removal of emojis and special characters from these comments, some rows were left empty but VSCode could not catch that they were null rows. Because of this, we created tables in PostreSql, imported the clean dataframe csv files, and deleted the null rows from there. This ensured that these dataframes were converted to databases. Later, these databases were exported back as csv files, now without any null rows. 
+Due to the removal of emojis and special characters from these comments, some rows were left empty but VSCode could not catch that they were null rows. Because of this, we created tables in PostreSQL, imported the clean dataframe csv files, and deleted the null rows from there. This also ensured that these dataframes were converted and connected to as databases. Later, these databases were exported back as csv files, now without any null rows. 
  
 ## Contact 
 If you want to contact us, you can reach us at
