@@ -48,7 +48,7 @@ If you want to contact us, you can reach us at
 
  macdkw89 - email address
 
- justint42 - email address
+ justint42 - [tapiajustin42@gmail.com](mailto:tapiajustin42@gmail.com)
 
  SNEHALDD - email address.
 
