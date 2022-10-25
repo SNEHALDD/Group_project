@@ -44,7 +44,7 @@ Tableau
 ## Contact 
 If you want to contact us, you can reach us at
 
- zaraxkhan - email address
+ zaraxkhan - mailto:zxkhan.99@gmail.com
 
  macdkw89 - email address
 
