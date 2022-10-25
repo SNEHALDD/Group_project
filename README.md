@@ -2,6 +2,12 @@
 
 ## Overview
 
+Goal and objective:
+
+Steps to achieve:
+
+Final outcome:
+
 ## Contributors: 
  zaraxkhan 
 
@@ -15,6 +21,9 @@
 
  Slack, Google Drive, Zoom.
 
+## Sources
+
+Dataset : https://archive.ics.uci.edu/ml/datasets/YouTube+Spam+Collection
 
 ## Prerequisites
 
