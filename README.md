@@ -1,10 +1,56 @@
-# GROUP_PROJECT
-Snehal Desalve, Zara Khan, Kevin MacDonald, Justin Tapia
+# Youtube_Comments_Bot_Analysis
 
-# Topic 
-Youtube Comment Bot Analysis
+## Overview
 
-# Project Details
-The Clean Data folder contains a basic outline of the steps in order to preprocess and clean the comments from the YouTube dataset. I have cleaned the data for the Youtube comments grabbed by the API. 
+Goal and objective:
 
-The twitter folder is still in process. Did we want to use soley YouTube comments for this analysis? Twitter API Enhanced is not allowing me premission to collect tweets.
+Steps to achieve:
+
+Final outcome:
+
+## Contributors: 
+ zaraxkhan 
+
+ macdkw89
+
+ justint42
+
+ SNEHALDD
+
+## Communication:
+
+ Slack, Google Drive, Zoom.
+
+## Sources
+
+Dataset : [UCI Machine Learning Repository: Youtube Spam collection Dataset](https://archive.ics.uci.edu/ml/datasets/YouTube+Spam+Collection)
+
+## Prerequisites
+
+Before you begin, Please ensure you have met the following requirements:
+
+Python version
+
+VS Code 
+
+PostgresSQL
+
+Tableau
+
+
+## Installation
+
+
+## Contact 
+If you want to contact us, you can reach us at
+
+ zaraxkhan - [zxkhan.99@gmail.com](mailto:zxkhan.99@gmail.com)
+
+ macdkw89 - email address
+
+ justint42 - email address
+
+ SNEHALDD - email address.
+
+ 
+
