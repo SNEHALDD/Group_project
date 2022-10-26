@@ -1,0 +1,35 @@
+CREATE TABLE psy_comments(
+	ID int,
+	CONTENT text,
+	CLASS int
+);
+SELECT * FROM psy_comments;
+SELECT * FROM psy_comments;
+
+CREATE TABLE katyperry_comments(
+	ID int,
+	CONTENT text,
+	CLASS int
+);
+SELECT * FROM katyperry_comments;	
+
+CREATE TABLE lmfao_comments(
+	ID int,
+	CONTENT text,
+	CLASS int
+);
+SELECT * FROM lmfao_comments;
+
+CREATE TABLE eminem_comments(
+	ID int,
+	CONTENT text,
+	CLASS int
+);
+SELECT * FROM eminem_comments;
+
+CREATE TABLE shakira_comments(
+	ID int,
+	CONTENT text,
+	CLASS int
+);
+SELECT * FROM shakira_comments;
