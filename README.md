@@ -27,7 +27,7 @@ Our goal is to create a machine learning model that will be trained on known, la
 
 2. Software : 
     - Python 3.9.12
-    - Scikit-learn (version)
+    - Scikit-learn 1.0
     - Numpy 1.21.5
     - pandas 1.4.2
       
