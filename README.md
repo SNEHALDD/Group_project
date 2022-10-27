@@ -60,9 +60,9 @@ This [folder](https://github.com/SNEHALDD/Youtube_Comments_Bot_Analysis/tree/mai
 
 After all this, the dataframes are preprocessed to match natural language processing for machine learning. 
 
-Due to the removal of emojis and special characters from these comments, some rows were left empty but VSCode could not catch that they were null rows. Because of this, we created tables in PostreSQL, imported the clean dataframe csv files, and deleted the null rows from there. This also ensured that these dataframes were converted and connected to as databases. Later, these databases were exported back as csv files, now without any null rows and ready for machine learning processing. 
+To connect these databases outside of our local host in PostgreSQL, we used Heroku. We connected our PostgreSQL server to Heroku with the given information on their website. This ensures that our database is not just on a local host, but instead stored on the cloud.
 
-To connect these databases outside of our local host in PostgreSQL, we used Heroku. We connected our PostgreSQL server to Heroku with the given information on their website. This ensures that our database is not just on a local host, but instead stored on the cloud. 
+Due to the removal of emojis and special characters from these comments, some rows were left empty but VSCode could not catch that they were null rows. Because of this, we created tables in PostreSQL on our Heroku server, imported the clean dataframe csv files, and deleted the null rows from there. This also ensured that these dataframes were converted and connected to as databases. Later, these databases were exported back as csv files, now without any null rows and ready for machine learning processing.
  
 ## Contact 
 If you want to contact us, you can reach us at
