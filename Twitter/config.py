@@ -1,7 +1,0 @@
-[twitter]
-
-api_key="7O9ExPbtmli0iqFRBygBjXT4r"
-api_secret="2QRf50Ddzqvdjp0lwKTcRf6RMZpU0HulvU5y3IyDHXg9hC9Ygs"
-bearer_token="AAAAAAAAAAAAAAAAAAAAABKeiQEAAAAAEmjt8Ae%2B%2FQhfHufrB2gkD3IbjAg%3DkFuiWNC7VLjWni32EO2DeKb7eooBbFpFISIGqj4nc9tA6TPuCw"
-access_token="1583268140728913921-sg0uNArS3foP49AEKxbsILDaa9BtIS"
-access_secret="p6cYJj1MWq12hj8CKpCFUD6d0wwHGJ1O178NAOOJT6E7L"
