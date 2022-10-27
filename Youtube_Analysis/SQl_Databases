@@ -85,3 +85,7 @@ CREATE TABLE original_katyperry_comments(
 	CLASS int
 );
 SELECT * FROM original_katyperry_comments;
+
+
+
+-- adding API comments onto heroku database
