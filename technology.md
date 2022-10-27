@@ -28,7 +28,7 @@ For document-focused classification, we are using Naive Bayes - MultinomialNB.
  - Use Naive Bayes to make predictions for testing set
  - Our initial goal is to create a preliminary model with an already-existing dataset, then will use API for actual implementation  
 
-## Dashboard - Considerations 
+## Dashboard Considerations 
 
 ### Tableau
 
