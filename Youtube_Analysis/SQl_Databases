@@ -1,0 +1,87 @@
+CREATE TABLE psy_comments(
+	ID int,
+	CONTENT text,
+	CLASS int
+);
+SELECT * FROM psy_comments;
+SELECT * FROM psy_comments;
+
+CREATE TABLE katyperry_comments(
+	ID int,
+	CONTENT text,
+	CLASS int
+);
+SELECT * FROM katyperry_comments;	
+
+CREATE TABLE lmfao_comments(
+	ID int,
+	CONTENT text,
+	CLASS int
+);
+SELECT * FROM lmfao_comments;
+
+CREATE TABLE eminem_comments(
+	ID int,
+	CONTENT text,
+	CLASS int
+);
+SELECT * FROM eminem_comments;
+
+CREATE TABLE shakira_comments(
+	ID int,
+	CONTENT text,
+	CLASS int
+);
+SELECT * FROM shakira_comments;
+
+
+-- creating the original databases onto heroku
+CREATE TABLE original_psy_comments(
+	COMMENT_ID varchar,
+	AUTHOR varchar,
+	DATE date,
+	CONTENT varchar,
+	CLASS int
+);
+SELECT * FROM original_psy_comments;
+
+
+-- new table
+CREATE TABLE original_lmfao_comments(
+	COMMENT_ID varchar,
+	AUTHOR varchar,
+	DATE date,
+	CONTENT text,
+	CLASS int
+);
+SELECT * FROM original_lmfao_comments;
+
+-- new table
+CREATE TABLE original_eminem_comments(
+	COMMENT_ID varchar,
+	AUTHOR varchar,
+	DATE date,
+	CONTENT text,
+	CLASS int
+);
+SELECT * FROM original_eminem_comments;
+
+-- new table
+CREATE TABLE original_shakira_comments(
+	COMMENT_ID varchar,
+	AUTHOR varchar,
+	DATE date,
+	CONTENT text,
+	CLASS int
+);
+SELECT * FROM original_shakira_comments;
+
+-- new table
+CREATE TABLE original_katyperry_comments(
+	COMMENT_ID varchar,
+	AUTHOR varchar,
+	DATE date,
+	CONTENT text,
+	CLASS int
+);
+SELECT * FROM original_katyperry_comments;
