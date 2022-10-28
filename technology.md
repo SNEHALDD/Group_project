@@ -32,11 +32,13 @@ For document-focused classification, we are using Naive Bayes - MultinomialNB.
 
 ### Tableau
 
+
 Its high ease-of-implementation and visually-appealing visualizations make it an excellent candidate for dashboard creation
 
 ### Javascript/D3.js
 
 We can use the D3.js library due its high interactability and its ability to easily load and transform data
+
 
 ### Streamlit
 
