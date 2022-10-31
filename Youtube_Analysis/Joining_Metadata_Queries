@@ -1,0 +1,179 @@
+-- join metadata to kaggle data set: psy, gangnam style
+CREATE TABLE psy_id_df (
+	id int,
+	comment_id varchar,
+	author varchar,
+	date date,
+	content varchar,
+	class boolean,
+	video_id varchar
+);
+
+SELECT * FROM psy_id_df;
+DROP TABLE psy_id_df; 
+
+CREATE TABLE music_video_metadata (
+	id int,
+	video_id varchar,
+	channel_id varchar,
+	date_published date,
+	video_title varchar,
+	like_count int,
+	comment_count int,
+	view_count bigint	
+);
+
+SELECT * FROM music_video_metadata;
+DROP TABLE music_video_metadata;
+
+-- joining tables
+SELECT p.id,
+	p.author,
+	p.date,
+	p.content,
+	p.class,
+	p.video_id,
+	m.channel_id,
+	m.date_published,
+	m.video_title,
+	m.like_count,
+	m.comment_count,
+	m.view_count
+INTO psy_metadata
+FROM psy_id_df AS p
+INNER JOIN music_video_metadata AS m
+ON p.video_id=m.video_id;
+
+SELECT * FROM psy_metadata;
+-- ----------------------------------------------------- --
+-- join metadata to kaggle data set: katyperry, roar
+CREATE TABLE katyperry_id_df (
+	id int,
+	comment_id varchar,
+	author varchar,
+	date date,
+	content varchar,
+	class boolean,
+	video_id varchar
+);
+DROP TABLE katyperry_id_df;
+SELECT * FROM katyperry_id_df;
+
+-- joining tables
+SELECT k.id,
+	k.author,
+	k.date,
+	k.content,
+	k.class,
+	k.video_id,
+	m.channel_id,
+	m.date_published,
+	m.video_title,
+	m.like_count,
+	m.comment_count,
+	m.view_count
+INTO katyperry_metadata
+FROM katyperry_id_df AS k
+INNER JOIN music_video_metadata AS m
+ON k.video_id=m.video_id;
+
+SELECT * FROM katyperry_metadata;
+
+-- ----------------------------------------------------- --
+-- join metadata to kaggle data set: lmfao, party rock
+CREATE TABLE lmfao_id_df (
+	id int,
+	comment_id varchar,
+	author varchar,
+	date date,
+	content varchar,
+	class boolean,
+	video_id varchar
+);
+-- joining tables
+SELECT l.id,
+	l.author,
+	l.date,
+	l.content,
+	l.class,
+	l.video_id,
+	m.channel_id,
+	m.date_published,
+	m.video_title,
+	m.like_count,
+	m.comment_count,
+	m.view_count
+INTO lmfao_metadata
+FROM lmfao_id_df AS l
+INNER JOIN music_video_metadata AS m
+ON l.video_id=m.video_id;
+
+SELECT * FROM lmfao_metadata;
+
+-- ----------------------------------------------------- --
+
+-- join metadata to kaggle data set: eminem, love the way you lie
+CREATE TABLE eminem_id_df (
+	id int,
+	comment_id varchar,
+	author varchar,
+	date date,
+	content varchar,
+	class boolean,
+	video_id varchar
+);
+
+-- joining tables
+SELECT e.id,
+	e.author,
+	e.date,
+	e.content,
+	e.class,
+	e.video_id,
+	m.channel_id,
+	m.date_published,
+	m.video_title,
+	m.like_count,
+	m.comment_count,
+	m.view_count
+INTO eminem_metadata
+FROM eminem_id_df AS e
+INNER JOIN music_video_metadata AS m
+ON e.video_id=m.video_id;
+
+SELECT * FROM eminem_metadata;
+
+-- ----------------------------------------------------- --
+
+-- join metadata to kaggle data set: shakira, waka waka
+CREATE TABLE shakira_id_df (
+	id int,
+	comment_id varchar,
+	author varchar,
+	date date,
+	content varchar,
+	class boolean,
+	video_id varchar
+);
+
+-- joining tables
+SELECT s.id,
+	s.author,
+	s.date,
+	s.content,
+	s.class,
+	s.video_id,
+	m.channel_id,
+	m.date_published,
+	m.video_title,
+	m.like_count,
+	m.comment_count,
+	m.view_count
+INTO shakira_metadata
+FROM shakira_id_df AS s
+INNER JOIN music_video_metadata AS m
+ON s.video_id=m.video_id;
+
+SELECT * FROM shakira_metadata;
+
+-- ----------------------------------------------------- --
