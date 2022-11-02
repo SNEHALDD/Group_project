@@ -2,7 +2,7 @@
 
 ## Overview
 
-Our goal is to create a machine learning model that will be trained on known, labeled datasets of social media posts classified as spam or not spam, then use the model on real-world data to determine which comments are spam, what percentage of comments are spam, when spam comments are typically posted, and what type of content is posted in spam posts. We will then create a tool for users to input their own link and see the results of the algorithm on their own dataset, as well as a dashboard that shows any statistics or metrics that we have gathered. 
+Our goal is to create a machine learning model that will be trained to predict which category a youtube channel belongs to. This will be based on features which include amount of videos on the channel, subscriber count, total amount of views on the channel, then use the model on real-world data to determine which comments are spam, what percentage of comments are spam, when spam comments are typically posted, and what type of content is posted in spam posts. We will then create a tool for users to input their own link and see the results of the algorithm on their own dataset, as well as a dashboard that shows any statistics or metrics that we have gathered. 
 
 ## Contributors: 
 1. Zara Khan - zaraxkhan - Circle Role
