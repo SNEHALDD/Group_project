@@ -9,7 +9,7 @@ Our goal is to create a machine learning model that will be trained to predict w
 
 2. Kevin MacDonald - macdkw89 - Triangle Role
 
-3. Justin Tapia - justint42 - X role
+3. Justin Tapia - justint42 - X Role
 
 4. Snehal Desavale - SNEHALDD - Square Role
 
